@@ -33,4 +33,4 @@ jobs:
     - run: npm install
     - run: npm run docs:build
     - name: Deploy
-      run: aws s3 sync ./docs/.vitepress/dist s3://gh-actions-test-942d2c30010e4e5eb2947c63fc6f3ba170559
+      run: aws s3 sync ./docs/.vitepress/dist s3://gh-actions-test-942d2c30010e4e5eb2947c63fc6f3ba170559/test-docs
